@@ -67,7 +67,7 @@ Flowforge Project/
         └── flowforge_model_evaluation_dashboard.png
 ```
 
-## 4. ETL and Data Quality Workflow
+## 5. ETL and Data Quality Workflow
 
 ### Data Ingestion
 Users can upload CSV, XLSX and XLS datasets through the Flask application.
@@ -93,7 +93,7 @@ Records removed during approved cleaning operations are exported separately for 
 ### Audit Logging
 Cleaning activities are recorded with timestamps, source filenames, selected actions, and record counts.
 
-## 5. Feature Engineering
+## 6. Feature Engineering
 
 The feature engineering module generates retail transaction features, including:
 
@@ -107,7 +107,7 @@ The feature engineering module generates retail transaction features, including:
 
 These features are used by the anomaly detection models.
 
-## 6. Machine Learning Models
+## 7. Machine Learning Models
 
 FlowForge implements three anomaly detection algorithms:
 
@@ -117,7 +117,7 @@ FlowForge implements three anomaly detection algorithms:
 
 A majority-voting ensemble combines the individual model predictions. A record is flagged by the ensemble when at least two models identify it as anomalous.
 
-## 7. Model Evaluation
+## 8. Model Evaluation
 
 The evaluation module uses an 80:20 training and testing split.
 
@@ -138,7 +138,7 @@ The model evaluation dashboard provides a visual comparison of the individual al
 
 **Important:** The evaluation metrics represent performance against synthetically injected anomalies. They should not be interpreted as verified real-world fraud detection accuracy.
 
-## 8. Installation and Execution
+## 9. Installation and Execution
 
 ### Step 1: Clone the repository
 
@@ -191,7 +191,7 @@ python model_evaluation.py
 python model_evaluation_dashboard.py
 ```
 
-## 9. Generated Outputs
+## 10. Generated Outputs
 
 The application generates:
 - Cleaned datasets
@@ -204,14 +204,14 @@ The application generates:
 - Audit logs
 - Model evaluation dashboard image
 
-## 10. Future Enhancements
+## 11. Future Enhancements
 
 - SQL-based staging and final data loading.
 - Expanded automated testing.
 - Additional data-quality monitoring.
 - Improved reporting and visualization.
 
-## 11. Project Status
+## 12. Project Status
 
 The Flask application, data upload, data-quality analysis, cleaning approval, quarantine exports, anomaly detection, model evaluation dashboard, and audit logging have been tested successfully in the local development environment.
 
