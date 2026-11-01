@@ -66,6 +66,8 @@ Flowforge Project/
     └── visualizations/
         └── flowforge_model_evaluation_dashboard.png
 
+
+```
 ## 4. Application Screenshots
 
 ### 4.1 FlowForge Home Page
@@ -85,8 +87,6 @@ Flowforge Project/
 ![SQL Analytics Dashboard](screenshots/sql_analytics_visuals.png)
 ### 4.6 Model Evaluation Dashboard
 ![Model Evaluation Dashboard](screenshots/model_evaluation.png)
-```
-
 ## 5. ETL and Data Quality Workflow
 
 ### Data Ingestion
