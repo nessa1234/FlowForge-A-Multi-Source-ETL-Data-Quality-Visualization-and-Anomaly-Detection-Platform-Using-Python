@@ -65,6 +65,26 @@ Flowforge Project/
     ├── model_evaluation_predictions.csv
     └── visualizations/
         └── flowforge_model_evaluation_dashboard.png
+
+## 4. Application Screenshots
+
+### 4.1 FlowForge Home Page
+![FlowForge Home Page](screenshots/home.png)
+
+### 4.2 Data Profiling Dashboard
+![Data Profiling Dashboard](screenshots/data_profiling.png)
+![Data Profiling Dashboard](screenshots/upload.png)
+### 4.3 Data Cleaning and Validation
+![Data Cleaning Dashboard](screenshots/data_cleaning.png)
+
+### 4.4 Anomaly Detection
+![Anomaly Detection Dashboard](screenshots/data_anomaly.png)
+
+### 4.5 SQL Analytics Dashboard
+![SQL Analytics Dashboard](screenshots/sql_analytics.png)
+![SQL Analytics Dashboard](screenshots/sql_analytics_visuals.png)
+### 4.6 Model Evaluation Dashboard
+![Model Evaluation Dashboard](screenshots/model_evaluation.png)
 ```
 
 ## 5. ETL and Data Quality Workflow
