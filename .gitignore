@@ -1,0 +1,37 @@
+﻿# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded datasets
+uploads/
+*.xlsx
+*.xls
+
+# Local database
+flowforge.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated exports and reports
+exports/
